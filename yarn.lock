@@ -11291,7 +11291,7 @@ __metadata:
     husky: "npm:^9.0.11"
     jsdom: "npm:~22.1.0"
     lint-staged: "npm:^15.2.2"
-    nx: "npm:18.0.8"
+    nx: "npm:18.1.2"
     prettier: "npm:^3.2.5"
     pretty-quick: "npm:^4.0.0"
     react: "npm:18.2.0"
