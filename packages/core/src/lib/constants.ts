@@ -26,12 +26,12 @@ export const ERROR_DELETE_TOP_LEVEL_NODE =
   'Attempting to delete a top-level Node';
 export const ERROR_RESOLVER_NOT_AN_OBJECT = `Resolver in <Editor /> has to be an object. For (de)serialization, a list of all the User Components is required.
 
-More info: https://denysvuika.github.io/handicraft/api/Editor#props`;
+More info: https://webstencils.github.io/sdk/api/Editor#props`;
 export const ERROR_DESERIALIZE_COMPONENT_NOT_IN_RESOLVER = `An Error occurred while deserializing components: Cannot find component <%displayName% /> in resolver map. Please check your resolver in <Editor />
 
 Available components in resolver: %availableComponents%
 
-More info: https://denysvuika.github.io/handicraft/api/Editor#props`;
+More info: https://webstencils.github.io/sdk/api/Editor#props`;
 export const ERROR_USE_EDITOR_OUTSIDE_OF_EDITOR_CONTEXT = `You can only use useEditor in the context of <Editor />.
 
 Please only use useEditor in components that are children of the <Editor /> component.`;

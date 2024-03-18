@@ -3,8 +3,8 @@ authors = ["Denys Vuika"]
 language = "en"
 multilingual = false
 src = "docs"
-title = "WebStencils"
+title = "WebStencils SDK"
 
 [output.html]
-git-repository-url = "https://github.com/DenysVuika/handicraft"
-site-url = "/handicraft/"
+git-repository-url = "https://github.com/webstencils/sdk"
+site-url = "/sdk/"

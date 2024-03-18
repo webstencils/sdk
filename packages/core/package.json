@@ -16,13 +16,13 @@
   ],
   "author": "Denys Vuika <denys.vuika@gmail.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/DenysVuika/handicraft",
+  "homepage": "https://github.com/webstencils/sdk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DenysVuika/handicraft.git"
+    "url": "git+https://github.com/webstencils/sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/DenysVuika/handicraft/issues"
+    "url": "https://github.com/webstencils/sdk/issues"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

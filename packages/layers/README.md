@@ -4,7 +4,7 @@ A Photoshop-like layers panel for your page editor.
 
 ![Demo](./docs/71734439-f2aada00-2e86-11ea-9d5f-c782ccbc8e54.gif)
 
-- [Documentation](https://denysvuika.github.io/handicraft/additional/layers)
+- [Documentation](https://webstencils.github.io/sdk/additional/layers)
 
 ## Usage
 

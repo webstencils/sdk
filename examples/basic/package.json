@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Denys Vuika <denys.vuika@gmail.com>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/DenysVuika/handicraft",
+  "homepage": "https://github.com/webstencils/sdk",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
