@@ -1,0 +1,48 @@
+{
+  "name": "@webstencils/layers",
+  "version": "0.1.0",
+  "description": "A Photoshop-like layers panel for your page editor",
+  "keywords": [
+    "wysiwyg",
+    "html",
+    "layers",
+    "photoshop",
+    "page-editor",
+    "web-builder",
+    "react"
+  ],
+  "author": "Denys Vuika <denys.vuika@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webstencils/core/"
+  },
+  "bugs": {
+    "url": "https://github.com/webstencils/core/issues"
+  },
+  "homepage": "https://github.com/webstencils/core/",
+  "scripts": {
+    "yalc": "yalc push"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.13",
+    "@mui/material": "^5.15.13",
+    "react-contenteditable": "^3.3.7",
+    "styled-components": ">= 4"
+  },
+  "peerDependencies": {
+    "@webstencils/core": ">=0.1.0",
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-dom": "^16.8.0 || ^17 || ^18"
+  }
+}

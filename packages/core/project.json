@@ -1,0 +1,15 @@
+{
+  "name": "@webstencils/core",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/core/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "yalc": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "yalc"
+      }
+    }
+  }
+}

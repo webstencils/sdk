@@ -1,0 +1,8 @@
+{
+  "name": "example-basic",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "examples/basic/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

@@ -1,0 +1,7 @@
+node_modules
+src
+.eslintignore
+.eslintrc.json
+project.json
+tsconfig*.json
+vite.config.ts

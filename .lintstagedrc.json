@@ -1,0 +1,6 @@
+{
+  "packages/**/*.{js,jsx,ts,tsx}": [
+    "npx pretty-quick --staged",
+    "npm run lint"
+  ]
+}

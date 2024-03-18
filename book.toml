@@ -1,0 +1,10 @@
+[book]
+authors = ["Denys Vuika"]
+language = "en"
+multilingual = false
+src = "docs"
+title = "WebStencils"
+
+[output.html]
+git-repository-url = "https://github.com/DenysVuika/handicraft"
+site-url = "/handicraft/"
