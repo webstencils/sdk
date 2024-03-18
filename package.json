@@ -43,7 +43,7 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "husky": "^9.0.11",
-    "jsdom": "~22.1.0",
+    "jsdom": "~24.0.0",
     "lint-staged": "^15.2.2",
     "nx": "18.1.2",
     "prettier": "^3.2.5",
