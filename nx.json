@@ -4,6 +4,9 @@
     "defaultBase": "main"
   },
   "defaultProject": "example-designer",
+  "release": {
+    "projects": ["packages/*"]
+  },
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
