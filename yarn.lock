@@ -3845,9 +3845,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:14.0.0":
-  version: 14.0.0
-  resolution: "@testing-library/react@npm:14.0.0"
+"@testing-library/react@npm:14.2.1":
+  version: 14.2.1
+  resolution: "@testing-library/react@npm:14.2.1"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
     "@testing-library/dom": "npm:^9.0.0"
@@ -3855,7 +3855,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10/1f2a4f78d107e741b35671e9c7dd992d5c9f49b48ee24112ccfe636179be72f3c62a65b1405901b59eb6cde996176ebc2c99099e04d9f14575641e46688747f0
+  checksum: 10/e02b2f32ae79665a79fc4d8ee053fd3832bfcd4753aa1dba05cdece1a9f59c72a0fae91e0a9387597dcb686d631a722729f2878e38dc95e6f23b291ad8d09b6c
   languageName: node
   linkType: hard
 
@@ -11265,7 +11265,7 @@ __metadata:
     "@swc/core": "npm:~1.4.8"
     "@swc/helpers": "npm:~0.5.2"
     "@swc/plugin-emotion": "npm:^2.5.67"
-    "@testing-library/react": "npm:14.0.0"
+    "@testing-library/react": "npm:14.2.1"
     "@types/node": "npm:20.11.28"
     "@types/react": "npm:^18.2.66"
     "@types/react-dom": "npm:^18.2.22"
