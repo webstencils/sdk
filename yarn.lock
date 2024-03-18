@@ -2771,12 +2771,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/react@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nrwl/react@npm:18.0.8"
+"@nrwl/react@npm:18.1.2":
+  version: 18.1.2
+  resolution: "@nrwl/react@npm:18.1.2"
   dependencies:
-    "@nx/react": "npm:18.0.8"
-  checksum: 10/3384a3aebe393295b0d9e8884478bd34f5e76ad7bec6a925f6dd7998d91160b09ff1d724882a89f19e2eaa02ffef34b26609870f83aa7c87f7867ed17a89d94e
+    "@nx/react": "npm:18.1.2"
+  checksum: 10/7c9225c60da5b7cadbf7decf4a63092036e9303be7dc4095c3094c974b0b9d5301247739d8a36c066f968bd2ba5821ece88a139f5ba319cfb51ba911c82c5e36
   languageName: node
   linkType: hard
 
@@ -2819,6 +2819,15 @@ __metadata:
   dependencies:
     "@nx/web": "npm:18.0.8"
   checksum: 10/977e71594d26f8c20f19a2d935bf39d34deeae6900ce79c3c6a0960ce6bd52d97d0a803f498dd19b9b7f824c29dffde878e390deaca2df13a78e4393868f05d8
+  languageName: node
+  linkType: hard
+
+"@nrwl/web@npm:18.1.2":
+  version: 18.1.2
+  resolution: "@nrwl/web@npm:18.1.2"
+  dependencies:
+    "@nx/web": "npm:18.1.2"
+  checksum: 10/15a508a83bf17d99881e83be0c9b6bf8d3d0a84c2a1c0469133637138d0b28f85ca61ec0faf2efd72410a9a68e8e7ba67f2d1bca451335bb20df481936d92ec3
   languageName: node
   linkType: hard
 
@@ -2897,25 +2906,6 @@ __metadata:
     eslint-config-prettier:
       optional: true
   checksum: 10/d4134a2317e33cdae8a06dfc96ba0c5c17cd28b982a4448b5e9cd1f5059c40b1790c63b6fee0b212ae12a6a806ade4d95ba4338a7a733a569aabadd9383c8f12
-  languageName: node
-  linkType: hard
-
-"@nx/eslint@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nx/eslint@npm:18.0.8"
-  dependencies:
-    "@nx/devkit": "npm:18.0.8"
-    "@nx/js": "npm:18.0.8"
-    "@nx/linter": "npm:18.0.8"
-    eslint: "npm:^8.0.0"
-    tslib: "npm:^2.3.0"
-    typescript: "npm:~5.3.2"
-  peerDependencies:
-    js-yaml: 4.1.0
-  peerDependenciesMeta:
-    js-yaml:
-      optional: true
-  checksum: 10/983c82c3038c2b7da70d7bdc223a05c849afab3ff38d1f27444df5b97fb6c51778d560006a5c0434cc6e8dd751d555e6eba2e35c89c8cb9348380835fb4ea99f
   languageName: node
   linkType: hard
 
@@ -3021,15 +3011,6 @@ __metadata:
     verdaccio:
       optional: true
   checksum: 10/6c20b31e54ba9da8f77cc6ae6020b29116476fcfaa7d1071b6461fe3273ddcd8b7f5c856d5ade4075b85e6c09b4a89533735f00b3e8c06dd8dda60ba7a8b59fd
-  languageName: node
-  linkType: hard
-
-"@nx/linter@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nx/linter@npm:18.0.8"
-  dependencies:
-    "@nx/eslint": "npm:18.0.8"
-  checksum: 10/b7e14b0354a32d1417b5bd6726bf273ccd9ef1bd8c451ad53192af0c48eb904bf3223b8d2fe27c6e39948e752e6911042c1560a01f51b818877749fa0c869eef
   languageName: node
   linkType: hard
 
@@ -3182,21 +3163,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nx/react@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nx/react@npm:18.0.8"
+"@nx/react@npm:18.1.2":
+  version: 18.1.2
+  resolution: "@nx/react@npm:18.1.2"
   dependencies:
-    "@nrwl/react": "npm:18.0.8"
-    "@nx/devkit": "npm:18.0.8"
-    "@nx/eslint": "npm:18.0.8"
-    "@nx/js": "npm:18.0.8"
-    "@nx/web": "npm:18.0.8"
+    "@nrwl/react": "npm:18.1.2"
+    "@nx/devkit": "npm:18.1.2"
+    "@nx/eslint": "npm:18.1.2"
+    "@nx/js": "npm:18.1.2"
+    "@nx/web": "npm:18.1.2"
     "@phenomnomnominal/tsquery": "npm:~5.0.1"
     "@svgr/webpack": "npm:^8.0.1"
     chalk: "npm:^4.1.0"
     minimatch: "npm:9.0.3"
     tslib: "npm:^2.3.0"
-  checksum: 10/7d32ed441230e85bc6f570a2aba3c72d340832bc83b17877731d299b0ad8493fe90b1ff7978648b12073a330600b44f06c73c594405ac753bb274043d1e5e28d
+  checksum: 10/958f7dbe936a14ec208eb882e39d4d3e9726aa668aa9c43468c4d423ed945e3fef2f8423e135f973a5bbd83800c1cd1002104e5e3e11113ef93ab54143fdc0af
   languageName: node
   linkType: hard
 
@@ -3230,6 +3211,21 @@ __metadata:
     http-server: "npm:^14.1.0"
     tslib: "npm:^2.3.0"
   checksum: 10/7d0452193076fdb4bb2319ed64c4cb7c0e3646568d310f6fe8d0046a3f00db8e493cf62182b37d7ee6b59e44523429370eeb3a2496a5b2807e383499316bde32
+  languageName: node
+  linkType: hard
+
+"@nx/web@npm:18.1.2":
+  version: 18.1.2
+  resolution: "@nx/web@npm:18.1.2"
+  dependencies:
+    "@nrwl/web": "npm:18.1.2"
+    "@nx/devkit": "npm:18.1.2"
+    "@nx/js": "npm:18.1.2"
+    chalk: "npm:^4.1.0"
+    detect-port: "npm:^1.5.1"
+    http-server: "npm:^14.1.0"
+    tslib: "npm:^2.3.0"
+  checksum: 10/bc261b71e36b0120be67f758f124e25b5da9e09edd9848ecd20e8159037bca8b4d97e87b64dcdf4dcf3c3a2f0ce9d68385c8e36017b7798eb4a4b574b1cbe2c9
   languageName: node
   linkType: hard
 
@@ -11261,7 +11257,7 @@ __metadata:
     "@nx/eslint": "npm:18.1.2"
     "@nx/eslint-plugin": "npm:18.0.8"
     "@nx/js": "npm:18.0.8"
-    "@nx/react": "npm:18.0.8"
+    "@nx/react": "npm:18.1.2"
     "@nx/vite": "npm:18.0.8"
     "@nx/web": "npm:18.0.8"
     "@swc-node/register": "npm:~1.8.0"
