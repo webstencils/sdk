@@ -6,6 +6,7 @@
   "tags": [],
   "targets": {
     "yalc": {
+      "dependsOn": ["build"],
       "executor": "nx:run-script",
       "options": {
         "script": "yalc"
