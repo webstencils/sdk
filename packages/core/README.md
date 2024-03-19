@@ -2,6 +2,8 @@
 
 React framework for building low-code application designers and page builders.
 
+Live demo: <https://webstencils.app/>
+
 ## Docs
 
 - [Official documentation](https://webstencils.github.io/sdk/)
