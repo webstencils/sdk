@@ -1,7 +1,7 @@
 # Basic Tutorial
 
 - [todo: Live Demo]()
-- [View Code](https://github.com/webstencils/core/tree/master/packages/examples/basic)
+- [View Code](https://github.com/webstencils/sdk/tree/main/examples/basic)
 
 ## Overview
 
