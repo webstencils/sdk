@@ -44,5 +44,8 @@
     "@webstencils/core": ">=0.1.0",
     "react": "^16.8.0 || ^17 || ^18",
     "react-dom": "^16.8.0 || ^17 || ^18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
