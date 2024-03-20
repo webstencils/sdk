@@ -3,6 +3,7 @@
   "private": true,
   "author": "Denys Vuika <denys.vuika@gmail.com>",
   "scripts": {
+    "commit": "commit",
     "start": "nx serve",
     "yalc": "nx run-many -t yalc",
     "clean": "nx run-many -t clean",
@@ -12,6 +13,9 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/prompt-cli": "^19.2.0",
     "@nx/eslint": "18.1.2",
     "@nx/eslint-plugin": "18.0.8",
     "@nx/js": "18.0.8",
