@@ -15,7 +15,8 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "@webstencils/core": ["./packages/core/src/index.ts"],
-      "@webstencils/layers": ["./packages/layers/src/index"]
+      "@webstencils/layers": ["./packages/layers/src/index"],
+      "@webstencils/ui": ["./packages/ui/src/index.ts"]
     }
   },
   "exclude": ["**/node_modules/**"]
