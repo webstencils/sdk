@@ -5,7 +5,10 @@
   },
   "defaultProject": "example-designer",
   "release": {
-    "projects": ["packages/*"]
+    "projects": ["packages/*"],
+    "version": {
+      "conventionalCommits": true
+    }
   },
   "plugins": [
     {
