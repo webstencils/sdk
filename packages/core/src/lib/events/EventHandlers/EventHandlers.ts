@@ -19,7 +19,7 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
   onEnable?(): void;
   onDisable?(): void;
 
-  constructor(options?: O) {
+  constructor(options: O) {
     this.options = options;
   }
 
@@ -97,8 +97,10 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
     const activeConnectorIds: Set<string> = new Set();
 
     let canRegisterConnectors = false;
-    const connectorsToRegister: Map<string, () => RegisteredConnector> =
-      new Map();
+    const connectorsToRegister: Map<
+      string,
+      () => RegisteredConnector | undefined
+    > = new Map();
 
     const connectors = Object.entries(handlers).reduce<
       Record<string, Connector>
@@ -106,7 +108,7 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
       (accum, [name, handler]) => ({
         ...accum,
         [name]: (el, required, options) => {
-          const registerConnector = () => {
+          const registerConnector = (): RegisteredConnector | undefined => {
             const connector = this.registry.register(el, {
               required,
               name,
@@ -114,7 +116,10 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
               connector: handler
             });
 
-            activeConnectorIds.add(connector.id);
+            if (connector) {
+              activeConnectorIds.add(connector.id);
+            }
+
             return connector;
           };
 
@@ -172,7 +177,7 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
     instance: H,
     cb: (connectors: EventHandlerConnectors<H>) => void
   ) {
-    const connectorsToCleanup = [];
+    const connectorsToCleanup: Array<() => void> = [];
     const handlers = instance.handlers();
 
     const proxiedHandlers = new Proxy(handlers, {
@@ -181,13 +186,12 @@ export abstract class EventHandlers<O extends Record<string, any> = {}> {
           return Reflect.get(target, key, receiver);
         }
 
-        return (el, ...args) => {
+        return (el: HTMLElement, ...args: any[]) => {
           const cleanup = handlers[key](el, ...args);
-          if (!cleanup) {
-            return;
-          }
 
-          connectorsToCleanup.push(cleanup);
+          if (cleanup) {
+            connectorsToCleanup.push(cleanup);
+          }
         };
       }
     });
