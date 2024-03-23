@@ -18,7 +18,7 @@ type PrivateActions =
   | 'replaceNodes'
   | 'reset';
 
-const getPublicActions = (actions) => {
+const getPublicActions = (actions: any) => {
   const {
     addLinkedNodeFromTree,
     setDOM,
@@ -87,9 +87,9 @@ export function useEditor<S>(collect?: any): useEditorReturnType<S> {
       ...EditorActions,
       history: {
         ...EditorActions.history,
-        ignore: (...args) =>
+        ignore: (...args: any[]) =>
           getPublicActions(EditorActions.history.ignore(...args)),
-        throttle: (...args) =>
+        throttle: (...args: any[]) =>
           getPublicActions(EditorActions.history.throttle(...args))
       }
     };

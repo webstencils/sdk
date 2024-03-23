@@ -38,10 +38,10 @@ export class ConnectorRegistry {
         return existingConnector;
       }
 
-      this.getByElement(element, connectorPayload.name).disable();
+      this.getByElement(element, connectorPayload.name)?.disable();
     }
 
-    let cleanup: () => void | null = null;
+    let cleanup: (() => void) | null = null;
 
     const id = this.getConnectorId(element, connectorPayload.name);
     this.registry.set(id, {
@@ -71,7 +71,7 @@ export class ConnectorRegistry {
     });
 
     if (this.isEnabled) {
-      this.registry.get(id).enable();
+      this.registry.get(id)?.enable();
     }
 
     return this.registry.get(id);
