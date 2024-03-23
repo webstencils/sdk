@@ -1,0 +1,53 @@
+{
+  "name": "@webstencils/ui",
+  "version": "0.1.0",
+  "description": "Building blocks for low-code applications",
+  "keywords": [
+    "react",
+    "drag-and-drop",
+    "page-editor",
+    "web-builder",
+    "html-builder",
+    "builder",
+    "editor",
+    "framework",
+    "wysiwyg",
+    "html"
+  ],
+  "author": "Denys Vuika <denys.vuika@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webstencils/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webstencils/sdk/issues"
+  },
+  "homepage": "https://github.com/webstencils/sdk/",
+  "scripts": {
+    "yalc": "yalc push"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.13",
+    "@mui/material": "^5.15.13",
+    "react-color": "^2.19.3"
+  },
+  "peerDependencies": {
+    "@webstencils/core": ">=0.1.0",
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-dom": "^16.8.0 || ^17 || ^18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

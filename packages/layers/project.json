@@ -1,5 +1,5 @@
 {
-  "name": "@webstencils/layers",
+  "name": "layers",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/layers/src",
   "projectType": "library",
