@@ -1,3 +1,3 @@
 # Sponsor
 
-> TODO
+> Coming soon
