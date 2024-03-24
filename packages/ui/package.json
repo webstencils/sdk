@@ -49,5 +49,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/react-color": "^3.0.12"
   }
 }

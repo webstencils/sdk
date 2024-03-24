@@ -4332,7 +4332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-color@npm:^3.0.11":
+"@types/react-color@npm:^3.0.11, @types/react-color@npm:^3.0.12":
   version: 3.0.12
   resolution: "@types/react-color@npm:3.0.12"
   dependencies:
@@ -4912,6 +4912,7 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/icons-material": "npm:^5.15.13"
     "@mui/material": "npm:^5.15.13"
+    "@types/react-color": "npm:^3.0.12"
     react-color: "npm:^2.19.3"
   peerDependencies:
     "@webstencils/core": ">=0.1.0"
