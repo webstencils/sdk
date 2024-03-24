@@ -106,11 +106,6 @@ export const ColorEditor = ({
         onChange={(e) => {
           setInternalValue(e.target.value);
         }}
-        onBlur={(e) => {
-          //   if (type === 'text') {
-          //     onChange(e.target.value);
-          //   }
-        }}
         margin="dense"
         variant="filled"
         InputProps={{

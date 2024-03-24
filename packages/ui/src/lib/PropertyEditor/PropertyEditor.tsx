@@ -36,7 +36,7 @@ export const PropertyEditor = ({
   propKey,
   type,
   onChange,
-  index,
+  index = 0,
   ...props
 }: PropertyEditorProps) => {
   const {

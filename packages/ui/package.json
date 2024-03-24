@@ -51,6 +51,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@types/react": "^18.2.69",
     "@types/react-color": "^3.0.12"
   }
 }
