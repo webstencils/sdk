@@ -4332,7 +4332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-color@npm:^3.0.11":
+"@types/react-color@npm:^3.0.11, @types/react-color@npm:^3.0.12":
   version: 3.0.12
   resolution: "@types/react-color@npm:3.0.12"
   dependencies:
@@ -4397,6 +4397,17 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10/8a82bda6c254681536fa8348dc15d52345d8203d5d322406feef865f74ebfe2475ebde0be4e2f9a18ffbb587dac946dfb5d0974b598779ff282259aff7e8209a
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.69":
+  version: 18.2.69
+  resolution: "@types/react@npm:18.2.69"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 10/5cc185f00ad5a4c2261e127ad25241448492f391e2206738b0477cbdba6aa75692e18ece5e75854ed513342d95c9ee83315744cb6b1470d488772cef1f8b40c8
   languageName: node
   linkType: hard
 
@@ -4912,6 +4923,8 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/icons-material": "npm:^5.15.13"
     "@mui/material": "npm:^5.15.13"
+    "@types/react": "npm:^18.2.69"
+    "@types/react-color": "npm:^3.0.12"
     react-color: "npm:^2.19.3"
   peerDependencies:
     "@webstencils/core": ">=0.1.0"
