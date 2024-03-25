@@ -6144,12 +6144,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copy-to-clipboard@npm:3.2.0":
-  version: 3.2.0
-  resolution: "copy-to-clipboard@npm:3.2.0"
+"copy-to-clipboard@npm:3.3.3":
+  version: 3.3.3
+  resolution: "copy-to-clipboard@npm:3.3.3"
   dependencies:
     toggle-selection: "npm:^1.0.6"
-  checksum: 10/29ed46d977aeff9b15de04d1a0b8be76be5791a3e5a7af9e60fe2502a4f50fc1b78faa44c69be3d462113e541c2115a9304d67ef4b7397086965626cddd18596
+  checksum: 10/e0a325e39b7615108e6c1c8ac110ae7b829cdc4ee3278b1df6a0e4228c490442cc86444cd643e2da344fbc424b3aab8909e2fec82f8bc75e7e5b190b7c24eecf
   languageName: node
   linkType: hard
 
@@ -7535,7 +7535,7 @@ __metadata:
     "@types/react-color": "npm:^3.0.11"
     "@webstencils/core": "workspace:*"
     clsx: "npm:latest"
-    copy-to-clipboard: "npm:3.2.0"
+    copy-to-clipboard: "npm:3.3.3"
     lzutf8: "npm:0.5.5"
     mui-color-input: "npm:^2.0.3"
     react: "npm:18.2.0"
