@@ -4389,14 +4389,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.66":
-  version: 18.2.66
-  resolution: "@types/react@npm:18.2.66"
+"@types/react@npm:^18.2.69":
+  version: 18.2.69
+  resolution: "@types/react@npm:18.2.69"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/8a82bda6c254681536fa8348dc15d52345d8203d5d322406feef865f74ebfe2475ebde0be4e2f9a18ffbb587dac946dfb5d0974b598779ff282259aff7e8209a
+  checksum: 10/5cc185f00ad5a4c2261e127ad25241448492f391e2206738b0477cbdba6aa75692e18ece5e75854ed513342d95c9ee83315744cb6b1470d488772cef1f8b40c8
   languageName: node
   linkType: hard
 
@@ -4873,7 +4873,7 @@ __metadata:
   resolution: "@webstencils/core@workspace:packages/core"
   dependencies:
     "@types/lodash": "npm:^4.14.195"
-    "@types/react": "npm:^18.2.66"
+    "@types/react": "npm:^18.2.69"
     "@types/shallowequal": "npm:^1.1.5"
     debounce: "npm:^2.0.0"
     immer: "npm:^9.0.6"
@@ -7509,7 +7509,7 @@ __metadata:
     "@mui/material": "npm:^5.15.13"
     "@types/classnames": "npm:2.2.9"
     "@types/node": "npm:20.11.28"
-    "@types/react": "npm:^18.2.66"
+    "@types/react": "npm:^18.2.69"
     "@types/react-color": "npm:3.0.1"
     "@webstencils/core": "workspace:*"
     "@webstencils/layers": "workspace:*"
@@ -11942,7 +11942,7 @@ __metadata:
     "@swc/plugin-emotion": "npm:^2.5.67"
     "@testing-library/react": "npm:14.2.1"
     "@types/node": "npm:20.11.28"
-    "@types/react": "npm:^18.2.66"
+    "@types/react": "npm:^18.2.69"
     "@types/react-dom": "npm:^18.2.22"
     "@types/react-is": "npm:18.2.2"
     "@types/styled-components": "npm:5.1.26"
