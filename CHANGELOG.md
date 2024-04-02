@@ -1,3 +1,21 @@
+## 0.2.0 (2024-04-02)
+
+
+### 🚀 Features
+
+- **ui:** introduce ui package ([#9](https://github.com/webstencils/sdk/pull/9))
+- **ui:** dialog components ([a356787](https://github.com/webstencils/sdk/commit/a356787))
+- **ui:** accordion component ([#12](https://github.com/webstencils/sdk/pull/12))
+- **ui:** property editor implementation ([422425f](https://github.com/webstencils/sdk/commit/422425f))
+
+### 🩹 Fixes
+
+- **core:** typings fixes ([#11](https://github.com/webstencils/sdk/pull/11))
+
+### ❤️  Thank You
+
+- Denys Vuika @DenysVuika
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
