@@ -27,7 +27,6 @@ export const parseTree = (
     rootNodeId: data.rootNodeId,
     nodes: fromEntries(nodePairs)
   };
-  const result = cloneTree(tree, query);
-  console.log(result);
-  return result;
+
+  return cloneTree(tree, query);
 };
