@@ -1,3 +1,18 @@
+## 0.3.0 (2024-04-06)
+
+
+### 🚀 Features
+
+- add cloneTree utility ([#27](https://github.com/webstencils/sdk/pull/27))
+
+### 🩹 Fixes
+
+- remove console.log from parseTree ([4143d34](https://github.com/webstencils/sdk/commit/4143d34))
+
+### ❤️  Thank You
+
+- Denys Vuika @DenysVuika
+
 ## 0.2.0 (2024-04-02)
 
 

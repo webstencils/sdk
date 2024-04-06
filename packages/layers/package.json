@@ -1,6 +1,6 @@
 {
   "name": "@webstencils/layers",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A Photoshop-like layers panel for your page editor",
   "keywords": [
     "wysiwyg",

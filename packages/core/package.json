@@ -1,6 +1,6 @@
 {
   "name": "@webstencils/core",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A React Framework for building extensible drag and drop page editors",
   "keywords": [
     "react",
