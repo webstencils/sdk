@@ -4,11 +4,15 @@ import { fromEntries } from './fromEntries';
 import { QueryCallbacksFor } from './useMethods';
 
 export const parseTree = (
-  template: string | any,
+  template: string | { rootNodeId: string; nodes: any },
   query: QueryCallbacksFor<typeof EditorQueryMethods>
 ): any => {
-  const newNodes =
-    typeof template === 'string' ? JSON.parse(template) : template;
+  const data =
+    typeof template === 'string'
+      ? (JSON.parse(template) as { rootNodeId: string; nodes: any })
+      : template;
+
+  const newNodes = data.nodes;
 
   const nodePairs = Object.keys(newNodes).map((id) => {
     const nodeId = id;
