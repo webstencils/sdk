@@ -6,6 +6,7 @@ export * from './lib/editor';
 export * from './lib/events';
 export * from './lib/constants';
 
+export * from './lib/utils/cloneTree';
 export * from './lib/utils/createNode';
 export * from './lib/utils/deprecate';
 export * from './lib/utils/deserializeNode';
