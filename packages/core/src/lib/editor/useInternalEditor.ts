@@ -42,10 +42,10 @@ export function useInternalEditor<C>(
   );
 
   useEffect(() => {
-    connectorsUsage.register();
+    connectorsUsage?.register();
 
     return () => {
-      connectorsUsage.cleanup();
+      connectorsUsage?.cleanup();
     };
   }, [connectorsUsage]);
 
