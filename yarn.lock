@@ -4500,14 +4500,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.70":
-  version: 18.2.70
-  resolution: "@types/react@npm:18.2.70"
+"@types/react@npm:^18.2.74":
+  version: 18.2.74
+  resolution: "@types/react@npm:18.2.74"
   dependencies:
     "@types/prop-types": "npm:*"
-    "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/ddf235dfa6abe0075b40e66d3119ca3d0af330045cd12ebea8f335e07e6d71882535bfab2b7ae33c1709a6c1cf06eab2e5587c9d4c2333d25f781f9fd34c83e5
+  checksum: 10/4057aa7d082d434f8e580e5aebd4007e5dbe7f8e9ae5e506a34a629e382070694a0401bf3f0d38fe8d64f4b38622e5794341e634b9739784deae19b037ae43fa
   languageName: node
   linkType: hard
 
@@ -5030,7 +5029,7 @@ __metadata:
   resolution: "@webstencils/core@workspace:packages/core"
   dependencies:
     "@types/lodash": "npm:^4.14.195"
-    "@types/react": "npm:^18.2.70"
+    "@types/react": "npm:^18.2.74"
     "@types/shallowequal": "npm:^1.1.5"
     debounce: "npm:^2.0.0"
     immer: "npm:^9.0.6"
@@ -5069,7 +5068,7 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/icons-material": "npm:^5.15.13"
     "@mui/material": "npm:^5.15.13"
-    "@types/react": "npm:^18.2.70"
+    "@types/react": "npm:^18.2.74"
     "@types/react-color": "npm:^3.0.12"
     react-color: "npm:^2.19.3"
   peerDependencies:
@@ -7653,7 +7652,7 @@ __metadata:
     "@mui/material": "npm:^5.15.13"
     "@types/classnames": "npm:2.2.9"
     "@types/node": "npm:20.11.28"
-    "@types/react": "npm:^18.2.70"
+    "@types/react": "npm:^18.2.74"
     "@types/react-color": "npm:3.0.1"
     "@webstencils/core": "workspace:*"
     "@webstencils/layers": "workspace:*"
@@ -12095,7 +12094,7 @@ __metadata:
     "@swc/plugin-emotion": "npm:^2.5.67"
     "@testing-library/react": "npm:14.2.2"
     "@types/node": "npm:20.11.28"
-    "@types/react": "npm:^18.2.70"
+    "@types/react": "npm:^18.2.74"
     "@types/react-dom": "npm:^18.2.22"
     "@types/react-is": "npm:18.2.4"
     "@types/styled-components": "npm:5.1.26"

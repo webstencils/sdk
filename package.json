@@ -31,7 +31,7 @@
     "@swc/plugin-emotion": "^2.5.67",
     "@testing-library/react": "14.2.2",
     "@types/node": "20.11.28",
-    "@types/react": "^18.2.70",
+    "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.22",
     "@types/react-is": "18.2.4",
     "@types/styled-components": "5.1.26",
