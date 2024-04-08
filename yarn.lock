@@ -3056,15 +3056,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/web@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nrwl/web@npm:18.0.8"
-  dependencies:
-    "@nx/web": "npm:18.0.8"
-  checksum: 10/977e71594d26f8c20f19a2d935bf39d34deeae6900ce79c3c6a0960ce6bd52d97d0a803f498dd19b9b7f824c29dffde878e390deaca2df13a78e4393868f05d8
-  languageName: node
-  linkType: hard
-
 "@nrwl/web@npm:18.2.3":
   version: 18.2.3
   resolution: "@nrwl/web@npm:18.2.3"
@@ -3608,21 +3599,6 @@ __metadata:
     vite: ^5.0.0
     vitest: ^1.3.1
   checksum: 10/6e798914c1274d21831d1b80648785e9a97d79f2258c9054d3eba3719a133c106848eb1fad4d5da8ae0bfc43da322d326d52d1e0e6f3c4b0ff421e9d8098a728
-  languageName: node
-  linkType: hard
-
-"@nx/web@npm:18.0.8":
-  version: 18.0.8
-  resolution: "@nx/web@npm:18.0.8"
-  dependencies:
-    "@nrwl/web": "npm:18.0.8"
-    "@nx/devkit": "npm:18.0.8"
-    "@nx/js": "npm:18.0.8"
-    chalk: "npm:^4.1.0"
-    detect-port: "npm:^1.5.1"
-    http-server: "npm:^14.1.0"
-    tslib: "npm:^2.3.0"
-  checksum: 10/7d0452193076fdb4bb2319ed64c4cb7c0e3646568d310f6fe8d0046a3f00db8e493cf62182b37d7ee6b59e44523429370eeb3a2496a5b2807e383499316bde32
   languageName: node
   linkType: hard
 
@@ -12423,7 +12399,7 @@ __metadata:
     "@nx/js": "npm:18.1.2"
     "@nx/react": "npm:18.2.3"
     "@nx/vite": "npm:18.0.8"
-    "@nx/web": "npm:18.0.8"
+    "@nx/web": "npm:18.2.3"
     "@swc-node/register": "npm:~1.9.0"
     "@swc/cli": "npm:~0.1.62"
     "@swc/core": "npm:~1.4.11"
