@@ -30,7 +30,9 @@ export function Breadcrumbs() {
             const displayName =
               node.data.custom.displayName || node.data.displayName;
             return index === arr.length - 1 ? (
-              <Typography color="text.primary">{displayName}</Typography>
+              <Typography key={node.id} color="text.primary">
+                {displayName}
+              </Typography>
             ) : (
               <Link
                 key={node.id}
