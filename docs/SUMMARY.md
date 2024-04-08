@@ -37,6 +37,7 @@
   - [useDialog()](ui/dialogs/useDialog.md)
   - [<ConfirmDialog \/>](ui/dialogs/ConfirmDialog.md)
   - [<InputDialog \/>](ui/dialogs/InputDialog.md)
+- [<Breadcrumbs \/>](./ui/breadcrumbs.md)
 
 # Additional Packages
 

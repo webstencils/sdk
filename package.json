@@ -10,7 +10,7 @@
     "build": "nx run-many -t build",
     "test": "nx run-many -t test",
     "lint": "nx run-many -t lint",
-    "doc": "mdbook serve",
+    "docs": "mdbook serve",
     "prepare": "husky"
   },
   "devDependencies": {
