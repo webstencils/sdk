@@ -6317,17 +6317,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.1.0":
+"clsx@npm:^2.1.0, clsx@npm:latest":
   version: 2.1.0
   resolution: "clsx@npm:2.1.0"
   checksum: 10/2e0ce7c3b6803d74fc8147c408f88e79245583202ac14abd9691e2aebb9f312de44270b79154320d10bb7804a9197869635d1291741084826cff20820f31542b
-  languageName: node
-  linkType: hard
-
-"clsx@npm:latest":
-  version: 1.0.4
-  resolution: "clsx@npm:1.0.4"
-  checksum: 10/bd2a74dbc2fa10d44c5cb083d2ed65da098fd9bc502af767c723becd2f2acb9f09824aac13ed871e93d4afa7c8af5c68b9f3ec99581de157aae7aeee2aca7d2e
   languageName: node
   linkType: hard
 
