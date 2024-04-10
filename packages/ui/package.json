@@ -40,6 +40,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.13",
+    "@radix-ui/themes": "^3.0.2",
     "react-color": "^2.19.3"
   },
   "peerDependencies": {
