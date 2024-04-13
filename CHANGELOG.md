@@ -1,3 +1,16 @@
+## 0.4.0 (2024-04-13)
+
+
+### 🚀 Features
+
+- **ui:** component breadcrumbs ([#33](https://github.com/webstencils/sdk/pull/33))
+- **ui:** switch component breadcrumbs to radix ([#34](https://github.com/webstencils/sdk/pull/34))
+- **ui:** toolbox components ([#36](https://github.com/webstencils/sdk/pull/36))
+
+### ❤️  Thank You
+
+- Denys Vuika @DenysVuika
+
 ## 0.3.0 (2024-04-06)
 
 
