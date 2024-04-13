@@ -1,0 +1,56 @@
+.ToolboxItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: var(--space-2) var(--space-3);
+  border-radius: 999px;
+  transition: background-color 50ms linear;
+  user-select: none;
+  min-height: var(--space-6);
+  color: var(--gray-12);
+
+  cursor: move;
+}
+
+.ToolboxItem:not(:last-of-type) {
+  margin-bottom: 1px;
+}
+
+.ToolboxItem:focus {
+  outline: none;
+}
+
+.ToolboxItem:focus-visible {
+  box-shadow:
+    inset 0 0 0 1px var(--accent-8),
+    0 0 0 1px var(--accent-8);
+}
+
+/*.IToolboxItem:not([href]) {*/
+/*    color: var(--gray-a10);*/
+/*}*/
+
+.ToolboxItem.active {
+  background-color: var(--accent-a5);
+}
+
+.ToolboxItem .ActionButton {
+  visibility: hidden;
+}
+
+@media (hover: hover) {
+  /*.IToolboxItem[href]:hover {*/
+  /*    background-color: var(--accent-a4);*/
+  /*}*/
+  .ToolboxItem:hover {
+    background-color: var(--accent-a4);
+  }
+
+  .ToolboxItem.active:hover {
+    background-color: var(--accent-a5);
+  }
+
+  .ToolboxItem:hover .ActionButton {
+    visibility: inherit;
+  }
+}
