@@ -42,8 +42,13 @@ export type Union<S = string, T extends string | number = string> =
 export type ComponentTemplate = {
   name: string;
   description: string;
-  props: Record<string, ComponentTemplateProperty>;
+  props: ComponentTemplateProperties;
 };
+
+export type ComponentTemplateProperties = Record<
+  string,
+  ComponentTemplateProperty
+>;
 
 export type ComponentTemplateProperty<T = any> = {
   type: Union<string, 'enum' | 'boolean' | 'string'>;
