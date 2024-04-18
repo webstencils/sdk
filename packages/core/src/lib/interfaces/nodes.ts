@@ -52,10 +52,11 @@ export type ComponentTemplateProperties = Record<
 
 export type ComponentTemplateProperty<T = any> = {
   type: Union<string, 'enum' | 'boolean' | 'string'>;
+  category?: string;
   description?: string;
   placeholder?: string;
   values?: readonly T[];
-  default: T;
+  default?: T;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
