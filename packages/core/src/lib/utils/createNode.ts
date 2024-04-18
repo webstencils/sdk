@@ -131,6 +131,10 @@ export function createNode(
     if (userComponentConfig.info) {
       node.info = userComponentConfig.info;
     }
+
+    if (userComponentConfig.template) {
+      node.template = userComponentConfig.template;
+    }
   }
 
   return node;

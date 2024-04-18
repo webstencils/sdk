@@ -29,6 +29,7 @@ export type Node = {
   dom: HTMLElement | null;
   related: Record<string, React.ElementType>;
   rules: NodeRules;
+  template: ComponentTemplate;
   _hydrationTimestamp: number;
 };
 
