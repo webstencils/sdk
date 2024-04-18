@@ -44,12 +44,12 @@ export type ComponentTemplate = {
   props: Record<string, ComponentTemplateProperty>;
 };
 
-export type ComponentTemplateProperty = {
+export type ComponentTemplateProperty<T = unknown> = {
   type: Union<string, 'enum' | 'boolean' | 'string'>;
   description?: string;
   placeholder?: string;
-  values?: readonly any[];
-  default: any;
+  values?: readonly T[];
+  default: T;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
