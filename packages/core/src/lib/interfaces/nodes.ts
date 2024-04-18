@@ -45,7 +45,7 @@ export type ComponentTemplate = {
   props: Record<string, ComponentTemplateProperty>;
 };
 
-export type ComponentTemplateProperty<T = unknown> = {
+export type ComponentTemplateProperty<T = any> = {
   type: Union<string, 'enum' | 'boolean' | 'string'>;
   description?: string;
   placeholder?: string;
