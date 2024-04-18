@@ -85,12 +85,10 @@ export function createNode(
 
   if (userComponentConfig) {
     node.data.displayName =
-      userComponentConfig.displayName ||
-      userComponentConfig.name ||
-      node.data.displayName;
+      userComponentConfig.displayName || node.data.displayName;
 
     node.data.props = {
-      ...(userComponentConfig.props || userComponentConfig.defaultProps || {}),
+      ...(userComponentConfig.props || {}),
       ...node.data.props
     };
 

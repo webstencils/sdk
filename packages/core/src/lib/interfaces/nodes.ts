@@ -11,10 +11,7 @@ export type UserComponentConfig<T> = {
   custom: Record<string, any>;
   info: Record<string, any>;
   isCanvas: boolean;
-
-  // TODO: Deprecate
-  name: string;
-  defaultProps: Partial<T>;
+  template: ComponentTemplate;
 };
 
 export type UserComponent<T = any> = React.ComponentType<T> & {
@@ -33,6 +30,20 @@ export type Node = {
   related: Record<string, React.ElementType>;
   rules: NodeRules;
   _hydrationTimestamp: number;
+};
+
+export type ComponentTemplate = {
+  name: string;
+  description: string;
+  props: Record<string, ComponentTemplateProperty>;
+};
+
+export type ComponentTemplateProperty = {
+  type: 'enum' | 'boolean' | 'string';
+  description?: string;
+  placeholder?: string;
+  values?: readonly string[];
+  default: string | boolean;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
