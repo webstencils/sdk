@@ -32,6 +32,12 @@ export type Node = {
   _hydrationTimestamp: number;
 };
 
+// Creates a union type of string literals with strings, but retains intellisense for the literals.
+// Union<string, 'foo' | 'bar'> => string | Omit<string, 'foo' | 'bar'>
+export type Union<S = string, T extends string | number = string> =
+  | T
+  | Omit<S, T>;
+
 export type ComponentTemplate = {
   name: string;
   description: string;
@@ -39,11 +45,11 @@ export type ComponentTemplate = {
 };
 
 export type ComponentTemplateProperty = {
-  type: 'enum' | 'boolean' | 'string';
+  type: Union<string, 'enum' | 'boolean' | 'string'>;
   description?: string;
   placeholder?: string;
-  values?: readonly string[];
-  default: string | boolean;
+  values?: readonly any[];
+  default: any;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
