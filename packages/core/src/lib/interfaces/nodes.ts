@@ -51,7 +51,7 @@ export type ComponentTemplateProperties = Record<
 >;
 
 export type ComponentTemplateProperty<T = any> = {
-  type: Union<string, 'enum' | 'boolean' | 'string'>;
+  type: Union<string, 'enum' | 'boolean' | 'string' | 'number'>;
   category?: string;
   description?: string;
   placeholder?: string;
