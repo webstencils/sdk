@@ -1,3 +1,14 @@
+## 0.5.0 (2024-04-23)
+
+
+### 🚀 Features
+
+- **core:** component template metadata ([#42](https://github.com/webstencils/sdk/pull/42))
+
+### ❤️  Thank You
+
+- Denys Vuika @DenysVuika
+
 ## 0.4.0 (2024-04-13)
 
 
