@@ -11,10 +11,7 @@ export type UserComponentConfig<T> = {
   custom: Record<string, any>;
   info: Record<string, any>;
   isCanvas: boolean;
-
-  // TODO: Deprecate
-  name: string;
-  defaultProps: Partial<T>;
+  template: ComponentTemplate;
 };
 
 export type UserComponent<T = any> = React.ComponentType<T> & {
@@ -32,7 +29,35 @@ export type Node = {
   dom: HTMLElement | null;
   related: Record<string, React.ElementType>;
   rules: NodeRules;
+  template: ComponentTemplate;
   _hydrationTimestamp: number;
+};
+
+// Creates a union type of string literals with strings, but retains intellisense for the literals.
+// Union<string, 'foo' | 'bar'> => string | Omit<string, 'foo' | 'bar'>
+export type Union<S = string, T extends string | number = string> =
+  | T
+  | Omit<S, T>;
+
+export type ComponentTemplate = {
+  name: string;
+  description: string;
+  props: ComponentTemplateProperties;
+};
+
+export type ComponentTemplateProperties = Record<
+  string,
+  ComponentTemplateProperty
+>;
+
+export type ComponentTemplateProperty<T = any> = {
+  type: Union<string, 'enum' | 'boolean' | 'string' | 'number'>;
+  category?: string;
+  label?: string;
+  description?: string;
+  placeholder?: string;
+  values?: readonly T[];
+  default?: T;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
