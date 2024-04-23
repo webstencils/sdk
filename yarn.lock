@@ -5692,10 +5692,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/classnames@npm:2.2.9":
-  version: 2.2.9
-  resolution: "@types/classnames@npm:2.2.9"
-  checksum: 10/5b2e3a15c6311494694576b17d192f1bca7c56ac720d84061ed310c55eada428a0691822aad188ea17098c6a4d0796b1228f5f594d2109913dd423eca5b53807
+"@types/classnames@npm:2.3.1":
+  version: 2.3.1
+  resolution: "@types/classnames@npm:2.3.1"
+  dependencies:
+    classnames: "npm:*"
+  checksum: 10/09a17ea08fcb83380921efdfdac94cfa162f87025cae0bf6f4ba508c2fa5f436459ce7612905a3f968fdddb68c03b8e6ff08e762ed2d0c110c5c4fceb244dc55
   languageName: node
   linkType: hard
 
@@ -7408,7 +7410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.2, classnames@npm:^2.5.1":
+"classnames@npm:*, classnames@npm:^2.3.2, classnames@npm:^2.5.1":
   version: 2.5.1
   resolution: "classnames@npm:2.5.1"
   checksum: 10/58eb394e8817021b153bb6e7d782cfb667e4ab390cb2e9dac2fc7c6b979d1cc2b2a733093955fc5c94aa79ef5c8c89f11ab77780894509be6afbb91dddd79d15
@@ -9075,7 +9077,7 @@ __metadata:
     "@emotion/styled": "npm:^11.11.0"
     "@mui/icons-material": "npm:^5.15.15"
     "@mui/material": "npm:^5.15.13"
-    "@types/classnames": "npm:2.2.9"
+    "@types/classnames": "npm:2.3.1"
     "@types/node": "npm:20.11.28"
     "@types/react": "npm:^18.2.74"
     "@types/react-color": "npm:3.0.1"
