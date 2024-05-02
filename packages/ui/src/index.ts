@@ -1,4 +1,3 @@
-export * from './lib/Accordion';
 export * from './lib/Breadcrumbs';
 export * from './lib/Dialog';
 export * from './lib/PropertyEditor';

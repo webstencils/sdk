@@ -35,7 +35,7 @@ export const ToolboxGroup = ({
             <Text
               size={{ initial: '3', md: '2' }}
               style={{ flex: 1 }}
-              ref={(ref) => create(ref, () => item.factory(query))}
+              ref={(ref: any) => create(ref, () => item.factory(query))}
             >
               {item.name}
             </Text>
