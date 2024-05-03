@@ -51,13 +51,24 @@ export type ComponentTemplateProperties = Record<
 >;
 
 export type ComponentTemplateProperty<T = any> = {
+  /* The type of the property */
   type: Union<string, 'enum' | 'boolean' | 'string' | 'text' | 'number'>;
+  /* The category of the property */
   category?: string;
+  /* The label of the property */
   label?: string;
+  /* The description of the property */
   description?: string;
+  /* The placeholder to use when property value is not set */
   placeholder?: string;
+  /* The list of possible values for the property, used only for `enum` type */
   values?: readonly T[];
+  /* The default value of the property */
   default?: T;
+  /* Min and max are only used for number types */
+  min?: T;
+  /* Min and max are only used for number types */
+  max?: T;
 };
 
 export type NormalizeNodeCallback = (node: Node) => void;
