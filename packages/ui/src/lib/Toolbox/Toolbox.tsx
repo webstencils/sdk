@@ -22,7 +22,7 @@ export const ToolboxGroup = ({
   } = useEditor();
 
   return (
-    <Box key={group.name} mb="4">
+    <Box key={group.name}>
       <Box py="2" px="3">
         <Heading as="h4" size={{ initial: '3', md: '2' }}>
           {group.name}
@@ -35,7 +35,7 @@ export const ToolboxGroup = ({
             <Text
               size={{ initial: '3', md: '2' }}
               style={{ flex: 1 }}
-              ref={(ref) => create(ref, () => item.factory(query))}
+              ref={(ref: any) => create(ref, () => item.factory(query))}
             >
               {item.name}
             </Text>

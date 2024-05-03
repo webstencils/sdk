@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-1) var(--space-2);
   border-radius: 999px;
   transition: background-color 50ms linear;
   user-select: none;
