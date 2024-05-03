@@ -23,7 +23,7 @@ export const ToolboxGroup = ({
 
   return (
     <Box key={group.name} mb="4">
-      <Box py="1" px="2">
+      <Box py="2" px="3">
         <Heading as="h4" size={{ initial: '3', md: '2' }}>
           {group.name}
         </Heading>
