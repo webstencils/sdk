@@ -6854,7 +6854,7 @@ __metadata:
     "@radix-ui/themes": "npm:^3.0.2"
     "@types/react": "npm:^18.2.74"
     "@types/react-color": "npm:^3.0.12"
-    react-color: "npm:^2.19.3"
+    classnames: "npm:^2.5.1"
   peerDependencies:
     "@webstencils/core": ">=0.1.0"
     react: ^16.8.0 || ^17 || ^18
