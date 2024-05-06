@@ -1,3 +1,16 @@
+## 0.6.0 (2024-05-06)
+
+
+### 🚀 Features
+
+- **core:** text property template type ([#47](https://github.com/webstencils/sdk/pull/47))
+- **core:** support min and max for number property templates ([#51](https://github.com/webstencils/sdk/pull/51))
+- **ui:** rework property panel ([#56](https://github.com/webstencils/sdk/pull/56))
+
+### ❤️  Thank You
+
+- Denys Vuika @DenysVuika
+
 ## 0.5.0 (2024-04-23)
 
 
